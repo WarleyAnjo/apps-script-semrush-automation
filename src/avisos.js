@@ -118,6 +118,16 @@ function getData() {
             about: `Este problema ocorre quando um texto âncora não descritivo é usado em um link (seja interno ou externo). Uma âncora é considerada não descritiva se ela não der nenhuma ideia de qual é o assunto da página para a qual o link aponta, por exemplo: "clique aqui", "bem aqui", etc. Esse tipo de âncora oferece pouco valor aos usuários e aos mecanismos de pesquisa, já que não apresenta nenhuma informação sobre a página de destino. Além disso, essas âncoras não ajudam muito na capacidade da página de destino de ser indexada por mecanismos de pesquisa e, como consequência, ser exibida nos rankings em solicitações de pesquisa relevantes`,
             solve: `Para permitir que os usuários e os mecanismos de pesquisa compreendam o significado da página para a qual o link aponta, use um texto âncora sucinto que descreva o conteúdo da página.`,
         },
+        23: {
+            title: `subdomínio não suporta o HSTS`,
+            about: `O HSTS (HTTP Strict Transport Security) informa aos navegadores que eles podem se comunicar com servidores somente através de conexões HTTPS. Assim, para garantir que você não apresente conteúdo inseguro ao público, recomendamos que implemente o suporte a HSTS.`,
+            solve: `Use um servidor que suporte o HSTS.`,
+        },
+        24: {
+            title: "link desta página não tem texto âncora",
+            about: "Este problema ocorre se um link (seja externo ou interno) em seu site tiver uma âncora vazia ou pura ('naked anchor', ou seja, uma âncora que usa uma URL bruta), ou se o texto âncora tiver apenas símbolos. Embora uma âncora ausente não impeça que os usuários e rastreadores sigam um link, fica difícil entender o assunto da página para a qual o link aponta. Além disso, o Google leva em consideração o texto âncora ao indexar uma página. Portanto, uma âncora ausente representa uma oportunidade desperdiçada de otimizar o desempenho da página para a qual o link aponta nos resultados de pesquisa.",
+            solve: "Use um texto âncora nos links onde for necessário. O texto do link precisa dar aos usuários e aos mecanismos de pesquisa pelo menos uma ideia básica do assunto da página-alvo. Além disso, use um texto curto porém descritivo.",
+        },
 
     }
 };

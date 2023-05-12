@@ -268,6 +268,13 @@ function getData() {
             solve: `Os principais fatores que afetam negativamente o tempo de carregamento da página HTML são o desempenho do servidor e a densidade do código HTML da página.
             Assim, tente limpar o código HTML da sua página. Se o problema é com o seu servidor Web, você deve considerar mover o site para um serviço de hospedagem com mais recursos.`,
         },
+        239: {
+            title: `página não pôde ser rastreada`,
+            about: `O problema indica que nosso rastreador não conseguiu acessar a página. Há duas possíveis razões:
+            - O tempo de resposta do servidor do seu site é superior a 5 segundos
+            - Seu servidor recusou acesso às páginas`,
+            solve: `Por favor, contate a equipe de suporte técnico da sua hospedagem Web e peça que eles corrijam o problema.`,
+        },
 
     }
 };
