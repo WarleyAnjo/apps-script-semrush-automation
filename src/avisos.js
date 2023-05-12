@@ -128,6 +128,11 @@ function getData() {
             about: "Este problema ocorre se um link (seja externo ou interno) em seu site tiver uma âncora vazia ou pura ('naked anchor', ou seja, uma âncora que usa uma URL bruta), ou se o texto âncora tiver apenas símbolos. Embora uma âncora ausente não impeça que os usuários e rastreadores sigam um link, fica difícil entender o assunto da página para a qual o link aponta. Além disso, o Google leva em consideração o texto âncora ao indexar uma página. Portanto, uma âncora ausente representa uma oportunidade desperdiçada de otimizar o desempenho da página para a qual o link aponta nos resultados de pesquisa.",
             solve: "Use um texto âncora nos links onde for necessário. O texto do link precisa dar aos usuários e aos mecanismos de pesquisa pelo menos uma ideia básica do assunto da página-alvo. Além disso, use um texto curto porém descritivo.",
         },
+        25: {
+            title: "página tem apenas um link interno de entrada",
+            about: "Ter poucos links internos de entrada significa poucas visitas, ou até mesmo nenhuma, e poucas chances de obter boas classificações nos resultados de pesquisa. É boa prática adicionar mais links internos de entrada a páginas com conteúdo útil. Desta forma, você pode ter a certeza de que usuários e mecanismos de pesquisa sempre a encontrarão.",
+            solve: "Acrescente mais links internos de entrada a páginas com conteúdo importante.",
+        },
 
     }
 };

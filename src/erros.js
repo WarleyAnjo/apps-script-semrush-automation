@@ -275,6 +275,13 @@ function getData() {
             - Seu servidor recusou acesso às páginas`,
             solve: `Por favor, contate a equipe de suporte técnico da sua hospedagem Web e peça que eles corrijam o problema.`,
         },
+        239: {
+            title: `link interno está quebrado`,
+            about: `Links internos quebrados levam usuários de um site a outro, que pode ter páginas não existentes. Links quebrados em excesso podem afetar negativamente a experiência do usuário e diminuir a classificação do seu site em mecanismos de pesquisa porque os rastreadores podem achar que o site não é bem mantido ou codificado.
+            Observe que o nosso rastreador pode detectar um link funcional como quebrado. Em geral, isso ocorre se o servidor que armazena o site do link externo bloquear o acesso do nosso rastreador.`,
+            solve: `Acesse todos os links relatados como quebrados. Se uma página externa retornar um erro, remova o link que leva à página com problema ou substitua-a por outro recurso.
+            Se os links relatados como quebrados funcionam quando acessados por um navegador, você deve entrar em contato com o proprietário do site e informá-lo do problema.`,
+        },
 
     }
 };

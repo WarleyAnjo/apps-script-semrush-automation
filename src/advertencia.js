@@ -191,9 +191,10 @@ function getData() {
         },
         332: {
             title: `páginas não têm atributos hreflang e lang`,
-            about: `Faça o seguinte:
-            - Adicione um atributo de idioma à tag <html>, p.ex., "<html lang="pt">"
-            - Adicione um atributo hreflang à tag <head> da sua página, p.ex., <link rel="alternate" href="http://exemplo.com/" hreflang="pt"/>`,
+            about: `Este problema é informado se sua página não tiver os atributos hreflang e lang.
+            Quando você tiver um site multilíngue, deve garantir que esteja fazendo tudo da forma correta.
+            Primeiro, você deve usar um atributo hreflang para indicar ao Google quais páginas devem ser exibidas aos visitantes com base na localização. Dessa forma, você pode ter a certeza de que seus usuários sempre receberão a versão do seu site com o idioma correto.
+            Você também deve declarar o idioma para o conteúdo da sua página (p.ex., atributo lang). Do contrário, o texto do site pode não ser reconhecido pelos mecanismos de pesquisa. Ele talvez não apareça nos resultados de pesquisa ou seja exibido incorretamente.`,
             solve: `Faça o seguinte:
             - Adicione um atributo de idioma à tag <html>, p.ex., "<html lang="pt">"
             - Adicione um atributo hreflang à tag <head> da sua página, p.ex., <link rel="alternate" href="http://exemplo.com/" hreflang="pt"/>`,
@@ -209,6 +210,31 @@ function getData() {
             title: `página não possui texto suficiente dentro da tag de título`,
             about: `Em geral, a utilização de títulos curtos em páginas da Web é uma prática recomendada. Entretanto, fique ciente de que títulos com 10 caracteres ou menos não fornecem informações suficientes sobre a sua página e limitam o potencial de ela aparecer nos resultados de pesquisa para diferentes palavras-chave.`,
             solve: `Adicione mais texto descritivo dentro da tag <title> da página.`,
+        },
+        335: {
+            title: `página não tem atributos hreflang e lang`,
+            about: `Este problema é informado se sua página não tiver os atributos hreflang e lang.
+            Quando você tiver um site multilíngue, deve garantir que esteja fazendo tudo da forma correta.
+            Primeiro, você deve usar um atributo hreflang para indicar ao Google quais páginas devem ser exibidas aos visitantes com base na localização. Dessa forma, você pode ter a certeza de que seus usuários sempre receberão a versão do seu site com o idioma correto.
+            Você também deve declarar o idioma para o conteúdo da sua página (p.ex., atributo lang). Do contrário, o texto do site pode não ser reconhecido pelos mecanismos de pesquisa. Ele talvez não apareça nos resultados de pesquisa ou seja exibido incorretamente.`,
+            solve: `Faça o seguinte:
+            - Adicione um atributo de idioma à tag <html>, p.ex., "<html lang="pt">"
+            - Adicione um atributo hreflang à tag <head> da sua página, p.ex., <link rel="alternate" href="http://exemplo.com/" hreflang="pt"/>`,
+        },
+        336: {
+            title: `página possui baixa quantidade de palavras`,
+            about: `Este problema é causado se o número de palavras na sua página for inferior a 200.
+            A quantidade de texto colocado na página é sinal de qualidade para os mecanismos de pesquisa.
+            Eles preferem fornecer a maior quantidade possível de informações aos usuários; assim, páginas com mais conteúdo tendem a ser melhor classificadas nos resultados de pesquisa, ao contrário das páginas com menor quantidade de palavras.`,
+            solve: `Melhore o conteúdo da página e não se esqueça de incluir mais de 200 palavras relevantes.`,
+        },
+        319: {
+            title: `problema com arquivos JavaScript e CSS não minificados`,
+            about: `A minificação é o processo de remover linhas, comentários e espaços em branco desnecessários do código-fonte.
+            A minificação dos arquivos JavaScript e CSS reduz seu tamanho, diminuindo o tempo de carregamento da página, aprimorando a experiência do usuário e melhorando suas classificações nos mecanismos de pesquisa.`,
+            solve: `Minifique seus arquivos CSS e JavaScript.
+            Se sua página usar arquivos CSS e JS que estejam hospedados em um site externo, entre em contato com o proprietário do site e peça-lhe que minifique os arquivos dele.
+            Caso esse problema não afete o tempo de carregamento da sua página, basta ignorá-lo.`,
         },
     }
 };
